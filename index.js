@@ -1,6 +1,6 @@
 if('serviceWorker' in navigator) {
   navigator.serviceWorker
-           .register('sw.js')
+           .register('/PWA2/sw.js')
            .then(function() { console.log('Service Worker Registered'); });
 }
 let deferredPrompt;
