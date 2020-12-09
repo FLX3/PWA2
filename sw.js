@@ -1,8 +1,8 @@
 var cacheName = 'hello-world-page';
 var filesToCache = [
-  '/',
-  '/index.html',
-  '/style.css'
+  '/PWA2/',
+  '/PWA2/index.html',
+  '/PWA2/style.css'
 ];
 self.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
